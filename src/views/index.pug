@@ -1,25 +1,30 @@
 extends ../partials/layout
 block variables
-  - var title = 'Anton Shubin | Full-stack web developer and entrepreneur'
-  - var description = 'Anton Shubin is a web developer and entrepreneur. He is passionate about creating a web applications and tools.'
+  - var title = 'Irina Sorokina | Full-stack web developer and entrepreneur'
+  - var description = 'Irina Sorokina is a web developer and entrepreneur. He is passionate about creating a web applications and tools.'
 block content
-  .relative.overflow-hidden.mb-4
-    .max-w-7xl.mx-auto
-      .relative.py-9.z-10.bg-slate-900(class='sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32')
-        svg.hidden.absolute.right-0.inset-y-0.h-full.w-48.text-slate-900.transform(class='lg:block translate-x-1/2' fill='currentColor' viewbox='0 0 100 100' preserveaspectratio='none' aria-hidden='true')
-          polygon(points='50,0 100,0 50,100 0,100')
-        main.mx-auto.max-w-7xl(class='sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28')
-          div(class='sm:text-center lg:text-left')
-            h1.text-4xl.font-bold.text-gray-100.mb-4(class='sm:text-5xl md:text-6xl')
-              span.block(class='xl:inline') Hey, I'm Anton!
-            .text-base.text-gray-200(class='sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-8 md:text-2xl lg:mx-0')
-              p.mb-4
-                | I develop
-                span.inline-flex.items-center.rounded-md.font-medium.bg-orange-500(class='px-2 py-0.5 mx-2') SaaS-applications
-                | from top to bottom for my freelance clients and also for myself.
-              p  Oh, and I love travel, skiing and tinkering devices using Arduino.
-    div(class='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2')
-      img.h-56.w-full.object-cover.rounded-lg(class='sm:h-72 md:h-96 lg:w-full lg:h-full' src='img/photo-big.webp' alt='Anton Shubin')
+  .max-w-7xl.mx-auto.relative.overflow-hidden
+    div(class='sm:grid sm:grid-cols-2 sm:gap-2')
+      div.mb-4(class='sm:p-10 sm:mb-0')
+        h1.text-center.text-4xl.font-bold.text-gray-100.mb-4(class='sm:text-left sm:text-5xl md:text-6xl')
+          span.block(class='xl:inline') Hey, I'm Irina!
+        .text-base.text-gray-300(class='sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-8 md:text-2xl lg:mx-0')
+          p.mb-6
+            | I am a
+            span.inline-flex.items-center.rounded-md.font-medium.text-white.bg-orange-500(class='px-2 py-0.5 mx-2') UI/UX-focused web developer
+            br
+            | who loves travel, skiing and surfing.
+
+          p.mb-6
+            | I've visited 40 countries.
+            br
+            | Now live in Istanbul, Turkey. GMT+3
+
+          p I have an eye on design, small details and I practice minimalism in my work and life.
+          p.mb-6 Check my works below.
+      div.self-center.justify-self-center
+        img.mx-auto.h-96.rounded-lg(src='img/ava.webp' alt='Irina Sorokina')
+
 
   include ../partials/current-work
 

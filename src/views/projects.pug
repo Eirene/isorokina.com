@@ -1,8 +1,8 @@
 extends ../partials/layout
 block variables
-  - var title = 'Projects | Anton Shubin'
+  - var title = 'Projects | Irina Sorokina'
   - var description = 'Projects I\'m working onn or participated into.'
-    
+
 mixin projectList(title, items)
   .flex.flex-col.text-center.w-full.mt-16.mb-10
     h1.text-2xl.font-medium.title-font.text-white(class='sm:text-3xl') #{title}
@@ -12,9 +12,9 @@ mixin projectList(title, items)
         img.rounded-t-md.mb-3(src=project.imageURL alt=project.title + ' preview' loading="lazy")
         .p-3
           h2.text-lg.font-bold.text-gray-100.mb-1.text-center #{project.title}
-          p.text-base.text-gray-200.mb-1 #{project.description} 
+          p.text-base.text-gray-200.mb-1 #{project.description}
           p.text-base.text-gray-200.truncate.w-72.font-bold.underline #{project.url}
-    
+
 block content
   .flex.flex-col.max-w-7xl.mx-auto.justify-center.items-center
     +projectList('My Projects', projects.my)
