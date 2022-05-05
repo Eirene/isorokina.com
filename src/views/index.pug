@@ -1,9 +1,9 @@
 extends ../partials/layout
 block variables
-  - var title = 'Irina Sorokina | Full-stack web developer and entrepreneur'
-  - var description = 'Irina Sorokina is a web developer and entrepreneur. He is passionate about creating a web applications and tools.'
+  - var title = 'Irina Sorokina | UI/UX-focused web developer'
+  - var description = 'Irina Sorokina is a UI/UX-focused web developer. She has an eye on design, small details and I practice minimalism in her work and life.'
 block content
-  .max-w-7xl.mx-auto.relative.overflow-hidden
+  .max-w-7xl.mx-auto
     div(class='sm:grid sm:grid-cols-2 sm:gap-2')
       div.mb-4(class='sm:p-10 sm:mb-0')
         h1.text-center.text-4xl.font-bold.text-gray-100.mb-4(class='sm:text-left sm:text-5xl md:text-6xl')
@@ -22,10 +22,11 @@ block content
 
           p I have an eye on design, small details and I practice minimalism in my work and life.
           p.mb-6 Check my works below.
-      div.self-center.justify-self-center
-        img.mx-auto.h-96.rounded-lg(src='img/ava.webp' alt='Irina Sorokina')
-
+      div.self-center.justify-self-center.w-full.h-full.overflow-hidden
+        .bg-bottom.bg-no-repeat.bg-cover.w-full.h-full.-rotate-45(style="background-image: url(img/IMG_3836.jpg);")
 
   include ../partials/current-work
+  include ../partials/also-worked
+  include ../partials/from-upwork
 
   include ../partials/contact-form
