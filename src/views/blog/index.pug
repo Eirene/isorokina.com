@@ -1,0 +1,22 @@
+extends ../../partials/layout
+block variables
+  - var title = 'Blog | Irina Sorokina'
+  - var description = 'Aggregation of my thoughts regarding UI/UX and web development'
+
+mixin blogArticlePreview(article, index)
+  .mt-16.mb-10
+    a(href='/blog/'+article.slug)
+      img.rounded-lg.mb-4(src=article.previewImageURL alt="Article preview")
+      h1.h2.mb-2
+        span.mr-2.text-gray-400 ##{index}
+        span #{article.title}
+      .flex.text-gray-400.items-center
+        span Time to read: #{article.readTime} min
+        span.ml-auto #{prettyDate(article.publishedAt)}
+
+
+block content
+  .max-w-xl.mx-auto
+    h1.h1.text-center Blog
+    each article, index in data.blogArticles
+      +blogArticlePreview(article, index)

@@ -1,44 +1,31 @@
-const url = location.href;
-const isHomepage = !location.href.endsWith('.html');
+const menuItemClasses = {
+  active: ['bg-orange-500', 'text-white'],
+  default: ['text-gray-300', 'hover:bg-gray-700', 'hover:text-white'],
+};
 
-const desktopMenuItemClassesActive = ['bg-orange-500', 'text-white'];
-const desktopMenuItemClassesDefault = ['text-gray-300', 'hover:bg-gray-700', 'hover:text-white'];
-
-highlightMobileMenu();
-highlightDesktopMenu();
+document.querySelectorAll(`#menu [data-highlight]`).forEach(highlightActiveMenuItem);
 listenToMobileMenu();
 
-function highlightMobileMenu() {
-  document.querySelectorAll(`#mobile-menu a`).forEach(item => {
-    const href = item.getAttribute('href');
-    if (url.indexOf(href) > -1 || (isHomepage && href.includes('index.html'))) {
-      item.className = 'bg-orange-500 text-white block px-3 py-2 rounded-md text-base font-medium';
-    } else {
-      item.className = 'text-gray-300 block px-3 py-2 rounded-md text-base font-medium';
-    }
-  });
-}
-
-function highlightDesktopMenu() {
-  document.querySelectorAll(`#desktop-menu a`).forEach(item => {
-    const href = item.getAttribute('href');
-    if (url.indexOf(href) > -1 || (isHomepage && href.includes('index.html'))) {
-      desktopMenuItemClassesActive.forEach(cl => item.classList.add(cl));
-      desktopMenuItemClassesDefault.forEach(cl => item.classList.remove(cl));
-    } else {
-      desktopMenuItemClassesActive.forEach(cl => item.classList.remove(cl));
-      desktopMenuItemClassesDefault.forEach(cl => item.classList.add(cl));
-    }
-  });
+function highlightActiveMenuItem(element) {
+  const href = element.getAttribute('href');
+  const isBlog = href === '/blog' && location.pathname.includes('/blog');
+  const isProjects = href === '/projects' && location.pathname.includes('/projects');
+  if (location.pathname === href || isBlog || isProjects) {
+    menuItemClasses.active.forEach(cl => element.classList.add(cl));
+    menuItemClasses.default.forEach(cl => element.classList.remove(cl));
+  } else {
+    menuItemClasses.active.forEach(cl => element.classList.remove(cl));
+    menuItemClasses.default.forEach(cl => element.classList.add(cl));
+  }
 }
 
 function listenToMobileMenu() {
   let isMobileMenuOpened = false;
-  const button = document.querySelector(`#mobile-menu-button`);
-  const closedIcon = button.querySelector(`#mobile-menu-closed-icon`);
-  const openedIcon = button.querySelector(`#mobile-menu-opened-icon`);
+  const buttons = [...document.querySelectorAll(`[data-mobile-menu-button]`)];
+  const closedIcon = document.querySelector(`#mobile-menu-closed-icon`);
+  const openedIcon = document.querySelector(`#mobile-menu-opened-icon`);
   const mobileMenu = document.querySelector(`#mobile-menu`);
-  button.onclick = () => {
+  const mobileMenuButtonClickHandler = () => {
     isMobileMenuOpened = !isMobileMenuOpened;
     if (isMobileMenuOpened) {
       mobileMenu.classList.remove('hidden');
@@ -54,4 +41,12 @@ function listenToMobileMenu() {
       openedIcon.classList.add('hidden');
     }
   };
+  buttons.forEach(button => (button.onclick = mobileMenuButtonClickHandler));
 }
+
+// Add e ma il after some delay to avoid spam (or at least try)
+setTimeout(() => {
+  document
+    .querySelectorAll('.contact-link')
+    .forEach(el => el.setAttribute('href', 'mai' + 'lto' + ':' + 'soro' + 'kina' + 333 + '+ws@' + 'gm' + 'ail.' + 'com'));
+}, 3000);
