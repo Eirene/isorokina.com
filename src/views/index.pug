@@ -4,8 +4,8 @@ block variables
   - var description = 'Irina Sorokina is a UI/UX-focused web developer. She has an eye on design, small details and I practice minimalism in her work and life.'
 block content
   .max-w-7xl.mx-auto
-    div(class='sm:grid sm:grid-cols-2 sm:gap-2')
-      div.mb-4(class='sm:p-10 sm:mb-0')
+    div(class='lg:grid lg:grid-cols-11')
+      .mb-4(class='sm:p-10 sm:mb-0 lg:pr-4 lg:col-span-5')
         h1.text-center.text-4xl.font-bold.text-gray-100.mb-4(class='sm:text-left sm:text-5xl md:text-6xl')
           span.block(class='xl:inline') Hey, I'm Irina!
         .text-base.text-gray-300(class='sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-8 md:text-2xl lg:mx-0')
@@ -23,18 +23,15 @@ block content
           p I have an eye on design, small details and I practice minimalism in my work and life.
           p.mb-6 Check my works below.
 
-          .text-center
-            a.inline-flex.items-center.pl-6.pr-4.py-3.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-orange-500(href="https://www.upwork.com/freelancers/~01d2bc6c45c951b2ba" target="_blank" class='hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400')
+          .text-center.mt-8.mb-10(class="lg:mt-12 lg:mb-0")
+            a.btn-primary(href="https://www.upwork.com/freelancers/~01d2bc6c45c951b2ba" target="_blank")
               span.mr-1 Hire me
-              svg.feather.feather-arrow-right(xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+              svg.feather.feather-arrow-right.animate-bounce-x(xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
                 line(x1='5' y1='12' x2='19' y2='12')
                 polyline(points='12 5 19 12 12 19')
 
-
-
-
-      div.self-center.justify-self-center.w-full.h-full.overflow-hidden
-        .bg-bottom.bg-no-repeat.bg-cover.w-full.h-full.-rotate-45(style="background-image: url(img/IMG_3836.jpg);")
+      .self-center.justify-self-center.w-full.h-full.overflow-hidden(class='lg:col-span-6')
+        .my-img
 
   include ../partials/current-work
   include ../partials/also-worked
