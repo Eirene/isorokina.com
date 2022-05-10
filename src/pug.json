@@ -3,120 +3,107 @@
   "pretty": true,
   "basedir": "src",
   "data": {
-    "projects": {
-      "my": [
-        {
-          "title": "Toread.today",
-          "slug": "toread-today",
-          "url": "https://toread-today.web.app",
-          "description": "A cloud tool to organise things to read/watch later. Priorities, tags, statuses and other fancy stuff. Web, Desktop & Mobile app, Google Chrome extension.",
-          "logoImageURL": "/img/projects/toread-today/logo.svg",
-          "logoImageStyle": "padding: 3rem 0;",
-          "logoText": "Toread.Today",
-          "logoTextStyle": "color: white; font-size: 2rem;",
-          "tags": ["Angular", "Node.js", "Express.js", "GCP", "Firebase", "Firestore"],
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp"]
-        },
-        {
-          "title": "The Seed",
-          "url": "https://seed.io",
-          "description": "A one-person SaaS application codebase template. Ship your project idea in days instead of months. ⚠️ It is addictive.",
-          "logoImageURL": "/img/projects/seed/logo.webp"
-        },
-        {
-          "title": "YouTube Tech Channel",
-          "url": "https://www.youtube.com/channel/UCzHggR9W9OdquYOvBuEORiQ/videos",
-          "description": "Short tech videos about software development and SaaS.",
-          "logoImageURL": "/img/projects/youtube-channel/logo.svg"
-        }
-      ],
-      "freelance": [
-        {
-          "title": "Corecircle",
-          "slug": "corecircle",
-          "role": "Tech Lead",
-          "tags": ["Node.js", "Nest.js", "Nx monorepo", "GCP", "Firebase", "PostgreSQL", "Redis"],
-          "logoImageURL": "/img/projects/corecircle/logo.svg",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp", "4.webp"],
-          "description": "Fitness-focused social network with exercise tracking features and ML for recommendation system.",
-          "url": "https://corecircle.com"
-        },
-        {
-          "title": "Connectful",
-          "slug": "connectful",
-          "role": "Tech Lead",
-          "tags": ["Node.js", "Nest.js", "Nx monorepo", "GCP", "Firebase", "Firestore"],
-          "logoImageURL": "/img/projects/connectful/logo.svg",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp"],
-          "description": "Networking app with Tinder-like UI and Machine Learning algorithm to match like-minded people.",
-          "url": "https://connectful.com"
-        },
-        {
-          "title": "FoodRazor",
-          "slug": "foodrazor",
-          "url": "https://foodrazor.com",
-          "description": "Digitize paper invoices, automating orders to suppliers, and tracking price fluctuations.",
-          "role": "Tech Lead",
-          "tags": ["Angular", "Node.js", "Express.js", "GCP", "Firebase", "Firestore"],
-          "logoImageURL": "/img/projects/foodrazor/logo.svg",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp"],
-          "videoURL": "https://youtube.com/embed/IL3M0A7g0SE"
-        },
-        {
-          "title": "GoPingu",
-          "slug": "gopingu",
-          "role": "Full-stack",
-          "tags": ["Angular", "Node.js", "Express.js", "Firebase", "Firestore"],
-          "logoImageURL": "/img/projects/gopingu/logo.svg",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp"],
-          "description": "Manage marketing teams via a Trello-like app that utilized a marketplace for project templates.",
-          "url": "https://app.gopingu.com"
-        },
-        {
-          "title": "Microwork",
-          "slug": "microwork",
-          "url": "https://microwork.io",
-          "description": "Human text classification service freelance platform. Earn money by classifying things.",
-          "role": "Full-stack",
-          "tags": ["Angular", "Node.js", "Express.js", "Firebase", "Firestore"],
-          "logoText": "ｍｉｃｒｏｗｏｒｋ.ｉｏ",
-          "logoTextStyle": "color: white; font-weight: bold; font-size: 1.3rem;",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp"]
-        },
-        {
-          "title": "Code review",
-          "slug": "code-review",
-          "url": "https://spy4x.github.io/pb-code-review",
-          "description": "Code review report for a Node.js REST API codebase. Callback hell, code inconsistency and fun.",
-          "role": "Audit",
-          "tags": ["Node.js", "Express.js"],
-          "logoImageURL": "/img/projects/code-review/logo.svg",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp"]
-        },
-        {
-          "title": "Sajari",
-          "slug": "sajari",
-          "role": "Frontend",
-          "url": "https://sajari.com",
-          "description": "Dashboard single-page application for search and recommendations engine as a service.",
-          "tags": ["Angular"],
-          "logoImageURL": "/img/projects/sajari/logo.svg",
-          "logoImageStyle": "padding: 3rem;",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp"]
-        },
-        {
-          "title": "CallTrack",
-          "slug": "calltrack",
-          "url": "https://ctrk.net",
-          "description": "Analyze calls data from your call center and manage phone numbers based on various rules.",
-          "role": "Frontend",
-          "tags": ["Angular"],
-          "logoText": "\uD835\uDE8C\uD835\uDE9D\uD835\uDE9B\uD835\uDE94.\uD835\uDE97\uD835\uDE8E\uD835\uDE9D",
-          "logoTextStyle": "color: white; font-size: 2.5rem;",
-          "screenshotURLs": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp"]
-        }
-      ]
-    },
+    "projects": [
+      {
+        "title": "GoPingu",
+        "slug": "gopingu",
+        "externalURL": "",
+        "description": "SAAS-project with more than 100 mockups",
+        "logoImageURL": "/img/projects/gopingu/GOPingu_page.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Bootstrap", "Angular Material UI"],
+        "screenshotURLs": ["GOPingu_main.png", "GOPingu_main2.png", "GOPingu_page.png", "GOPingu_desktop.png",
+          "GOPingu_mobile.png", "GOPingu_mobile-main.png"]
+      },
+      {
+        "title": "Dashboard for hotel service",
+        "slug": "dashboard",
+        "externalURL": "",
+        "description": "Dashboard for hotel service. Mockups were provided as is :)",
+        "logoImageURL": "/img/projects/dashboard/Dashboard_to.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["UI/UX", "Prototype"],
+        "screenshotURLs": ["Dashboard_from.png", "Dashboard_to.png", "from-to.png"]
+      },
+      {
+        "title": "Utilities App",
+        "slug": "utilities-app",
+        "externalURL": "https://eirene.github.io/utilities-app/dist/#/trello",
+        "description": "My project where I create and collect Vue components",
+        "logoImageURL": "/img/projects/utilities-app/Utilities_Trello.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["Utilities_Trello.png"]
+      },
+      {
+        "title": "Draper Automotive",
+        "slug": "draper-automotive",
+        "externalURL": "",
+        "description": "MVP for Draper Automotive. I've made a UX/UX in Figma and developed them with Bootstrap",
+        "logoImageURL": "/img/projects/draper-automotive/1.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["UI/UX", "Prototype", "Bootstrap", "Figma"],
+        "screenshotURLs": ["1.png", "3.png", "5.png", "7.png", "9.png", "11.png", "13.png", "15.png",
+          "2.png", "4.png", "6.png", "8.png", "10.png", "12.png", "14.png", "16.png"]
+      },
+      {
+        "title": "Cubbies NFT",
+        "slug": "cubbies-nft",
+        "externalURL": "",
+        "description": "Prototype for NFT project",
+        "logoImageURL": "/img/projects/cubbies-nft/desktop.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["desktop.png", "desktop_2.png", "mobile.png"]
+      },
+      {
+        "title": "Dashboard MVP",
+        "slug": "buyergenics",
+        "externalURL": "",
+        "description": "Frontend for Dashboard MVP (no design mockups were provided)",
+        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["CMS_desktop_1.png", "CMS_desktop_2.png", "CMS_desktop_3.png", "CMS_desktop_4.png", "CMS_desktop_5.png",
+          "CMS_mobile_menu.png", "CMS_mobile_page.png"]
+      },
+      {
+        "title": "Arkadia",
+        "slug": "arkadia",
+        "externalURL": "https://arkadia.spb.ru/",
+        "description": "Prototype for the online store of the cosmetics laboratory",
+        "logoImageURL": "/img/projects/arkadia/Screenshot_1.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Figma", "UI/UX", "Prototype"],
+        "screenshotURLs": ["Screenshot_1.png", "Screenshot_2.png"]
+      },
+      {
+        "title": "Toread.today",
+        "slug": "toread-today",
+        "externalURL": "https://toread-today.web.app",
+        "description": "A cloud tool to organise things to read/watch later. Priorities, tags, statuses and other fancy stuff. Web, Desktop & Mobile app, Google Chrome extension.",
+        "logoImageURL": "/img/projects/toread-today/desktop.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Bulma", "UI/UX", "Redesign", "Prototype", "Figma"],
+        "screenshotURLs": ["desktop.png", "style-guide.png"]
+      }
+    ],
     "blogArticles": [
       {
         "id": 1,

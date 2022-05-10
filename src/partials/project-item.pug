@@ -1,20 +1,22 @@
 extends layout
 
 block content
-  section.max-w-2xl.mx-auto.text-center
-    .mb-6
+  section.max-w-2xl.mx-auto.text-center.relative
+    .my-6
       h1.h1 #{title}
-      p.text-orange-500
-        a(href=externalURL target="_blank")
-          span #{externalURL}
-          svg.inline.w-4.feather.feather-share(xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
-            path(d='M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8')
-            polyline(points='16 6 12 2 8 6')
-            line(x1='12' y1='2' x2='12' y2='15')
+      p.text-gray-400
+        a(href=externalURL target="_blank") #{externalURL}
     p
       each tag in tags
         span.project-badge #{tag}
     h2.tracking-wide.mt-6.text-xl.text-gray-100 #{description}
+
+    .absolute.z-10.top-0.left-0(class="lg:-ml-24")
+      a.block(href="/projects")
+        svg.text-white(xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+          line(x1='19' y1='12' x2='5' y2='12')
+          polyline(points='12 19 5 12 12 5')
+
 
   section.max-w-4xl.mx-auto.p-6.flex.gap-8.flex-wrap.justify-center
     if videoURL

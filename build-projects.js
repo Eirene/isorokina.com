@@ -13,9 +13,6 @@ function buildProjectPage(project) {
   fs.writeFileSync(`dist/projects/${project.slug}.html`, html);
 }
 
-for (let myProject of pugJSON.data.projects.my) {
+for (let myProject of pugJSON.data.projects) {
   buildProjectPage(myProject);
-}
-for (let freelanceProject of pugJSON.data.projects.freelance) {
-  buildProjectPage(freelanceProject);
 }
