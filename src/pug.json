@@ -9,13 +9,13 @@
         "slug": "gopingu",
         "externalURL": "",
         "description": "SAAS-project with more than 100 mockups",
-        "logoImageURL": "/img/projects/gopingu/GOPingu_page.png",
+        "logoImageURL": "/img/projects/gopingu/GoPingu_page.png",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Bootstrap", "Angular Material UI"],
-        "screenshotURLs": ["GOPingu_main.png", "GOPingu_main2.png", "GOPingu_page.png", "GOPingu_desktop.png",
-          "GOPingu_mobile.png", "GOPingu_mobile-main.png"]
+        "screenshotURLs": ["GoPingu_main.png", "GoPingu_main2.png", "GoPingu_page.png", "GoPingu_desktop.png",
+          "GoPingu_mobile.png", "GoPingu_mobile-main.png"]
       },
       {
         "title": "Dashboard for hotel service",
