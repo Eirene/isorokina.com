@@ -18,16 +18,16 @@
           "GoPingu_mobile.png", "GoPingu_mobile-main.png"]
       },
       {
-        "title": "Dashboard for hotel service",
-        "slug": "dashboard",
-        "externalURL": "",
-        "description": "Dashboard for hotel service. Mockups were provided as is :)",
-        "logoImageURL": "/img/projects/dashboard/Dashboard_to.png",
+        "title": "Corecircle",
+        "slug": "corecircle",
+        "externalURL": "https://corecircle.com/",
+        "description": "Frontend for mobile and desktop",
+        "logoImageURL": "/img/projects/corecircle/desktop_main.png",
         "logoImageStyle": "",
         "logoText": "",
-        "logoTextStyle": "color: white; font-size: 2rem;",
-        "tags": ["UI/UX", "Prototype"],
-        "screenshotURLs": ["Dashboard_from.png", "Dashboard_to.png", "from-to.png"]
+        "logoTextStyle": "",
+        "tags": ["Tailwind CSS", "Figma", "Frontend", "Pug.js"],
+        "screenshotURLs": ["desktop_main.png", "desktop_faq.png", "mobile_main.png", "mobile_faq.png"]
       },
       {
         "title": "Utilities App",
@@ -90,6 +90,18 @@
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Figma", "UI/UX", "Prototype"],
         "screenshotURLs": ["Screenshot_1.png", "Screenshot_2.png"]
+      },
+      {
+        "title": "Dashboard for hotel service",
+        "slug": "dashboard",
+        "externalURL": "",
+        "description": "Dashboard for hotel service. Mockups were provided as is :)",
+        "logoImageURL": "/img/projects/dashboard/Dashboard_to.png",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["UI/UX", "Prototype"],
+        "screenshotURLs": ["Dashboard_from.png", "Dashboard_to.png", "from-to.png"]
       },
       {
         "title": "Toread.today",
