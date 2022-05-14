@@ -9,111 +9,111 @@
         "slug": "gopingu",
         "externalURL": "",
         "description": "SAAS-project with more than 100 mockups",
-        "logoImageURL": "/img/projects/gopingu/GoPingu_page.png",
+        "logoImageURL": "/img/projects/gopingu/GoPingu_page.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Bootstrap", "Angular Material UI"],
-        "screenshotURLs": ["GoPingu_main.png", "GoPingu_main2.png", "GoPingu_page.png", "GoPingu_desktop.png",
-          "GoPingu_mobile.png", "GoPingu_mobile-main.png"]
+        "screenshotURLs": ["GoPingu_main.webp", "GoPingu_main2.webp", "GoPingu_page.webp", "GoPingu_desktop.webp",
+          "GoPingu_mobile.webp", "GoPingu_mobile-main.webp"]
       },
       {
         "title": "Corecircle",
         "slug": "corecircle",
         "externalURL": "https://corecircle.com/",
         "description": "Frontend for mobile and desktop",
-        "logoImageURL": "/img/projects/corecircle/desktop_main.png",
+        "logoImageURL": "/img/projects/corecircle/desktop_main.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "",
         "tags": ["Tailwind CSS", "Figma", "Frontend", "Pug.js"],
-        "screenshotURLs": ["desktop_main.png", "desktop_faq.png", "mobile_main.png", "mobile_faq.png"]
+        "screenshotURLs": ["desktop_main.webp", "desktop_faq.webp", "mobile_main.webp", "mobile_faq.webp"]
       },
       {
         "title": "Utilities App",
         "slug": "utilities-app",
         "externalURL": "https://eirene.github.io/utilities-app/dist/#/trello",
         "description": "My project where I create and collect Vue components",
-        "logoImageURL": "/img/projects/utilities-app/Utilities_Trello.png",
+        "logoImageURL": "/img/projects/utilities-app/Utilities_Trello.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
-        "screenshotURLs": ["Utilities_Trello.png"]
+        "screenshotURLs": ["Utilities_Trello.webp"]
       },
       {
         "title": "Draper Automotive",
         "slug": "draper-automotive",
         "externalURL": "",
         "description": "MVP for Draper Automotive. I've made a UX/UX in Figma and developed them with Bootstrap",
-        "logoImageURL": "/img/projects/draper-automotive/1.png",
+        "logoImageURL": "/img/projects/draper-automotive/1.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["UI/UX", "Prototype", "Bootstrap", "Figma"],
-        "screenshotURLs": ["1.png", "3.png", "5.png", "7.png", "9.png", "11.png", "13.png", "15.png",
-          "2.png", "4.png", "6.png", "8.png", "10.png", "12.png", "14.png", "16.png"]
+        "screenshotURLs": ["1.webp", "3.webp", "5.webp", "7.webp", "9.webp", "11.webp", "13.webp", "15.webp",
+          "2.webp", "4.webp", "6.webp", "8.webp", "10.webp", "12.webp", "14.webp", "16.webp"]
       },
       {
         "title": "Cubbies NFT",
         "slug": "cubbies-nft",
         "externalURL": "",
         "description": "Prototype for NFT project",
-        "logoImageURL": "/img/projects/cubbies-nft/desktop.png",
+        "logoImageURL": "/img/projects/cubbies-nft/desktop.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Tailwind CSS", "UI/UX", "Prototype"],
-        "screenshotURLs": ["desktop.png", "desktop_2.png", "mobile.png"]
+        "screenshotURLs": ["desktop.webp", "desktop_2.webp", "mobile.webp"]
       },
       {
         "title": "Dashboard MVP",
         "slug": "buyergenics",
         "externalURL": "",
         "description": "Frontend for Dashboard MVP (no design mockups were provided)",
-        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.png",
+        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
-        "screenshotURLs": ["CMS_desktop_1.png", "CMS_desktop_2.png", "CMS_desktop_3.png", "CMS_desktop_4.png", "CMS_desktop_5.png",
-          "CMS_mobile_menu.png", "CMS_mobile_page.png"]
+        "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp", "CMS_desktop_4.webp", "CMS_desktop_5.webp",
+          "CMS_mobile_menu.webp", "CMS_mobile_page.webp"]
       },
       {
         "title": "Arkadia",
         "slug": "arkadia",
         "externalURL": "https://arkadia.spb.ru/",
         "description": "Prototype for the online store of the cosmetics laboratory",
-        "logoImageURL": "/img/projects/arkadia/Screenshot_1.png",
+        "logoImageURL": "/img/projects/arkadia/Screenshot_1.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Figma", "UI/UX", "Prototype"],
-        "screenshotURLs": ["Screenshot_1.png", "Screenshot_2.png"]
+        "screenshotURLs": ["Screenshot_1.webp", "Screenshot_2.webp"]
       },
       {
         "title": "Dashboard for hotel service",
         "slug": "dashboard",
         "externalURL": "",
         "description": "Dashboard for hotel service. Mockups were provided as is :)",
-        "logoImageURL": "/img/projects/dashboard/Dashboard_to.png",
+        "logoImageURL": "/img/projects/dashboard/Dashboard_to.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["UI/UX", "Prototype"],
-        "screenshotURLs": ["Dashboard_from.png", "Dashboard_to.png", "from-to.png"]
+        "screenshotURLs": ["Dashboard_from.webp", "Dashboard_to.webp", "from-to.webp"]
       },
       {
         "title": "Toread.today",
         "slug": "toread-today",
         "externalURL": "https://toread-today.web.app",
         "description": "A cloud tool to organise things to read/watch later. Priorities, tags, statuses and other fancy stuff. Web, Desktop & Mobile app, Google Chrome extension.",
-        "logoImageURL": "/img/projects/toread-today/desktop.png",
+        "logoImageURL": "/img/projects/toread-today/desktop.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Bulma", "UI/UX", "Redesign", "Prototype", "Figma"],
-        "screenshotURLs": ["desktop.png", "style-guide.png"]
+        "screenshotURLs": ["desktop.webp", "style-guide.webp"]
       }
     ],
     "blogArticles": [
