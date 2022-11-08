@@ -18,16 +18,17 @@
           "GoPingu_mobile.webp", "GoPingu_mobile-main.webp"]
       },
       {
-        "title": "Corecircle",
-        "slug": "corecircle",
-        "externalURL": "https://corecircle.com/",
-        "description": "Frontend for mobile and desktop",
-        "logoImageURL": "/img/projects/corecircle/desktop_main.webp",
+        "title": "Dashboard MVP",
+        "slug": "buyergenics",
+        "externalURL": "",
+        "description": "Frontend for Dashboard MVP (no design mockups were provided)",
+        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.webp",
         "logoImageStyle": "",
         "logoText": "",
-        "logoTextStyle": "",
-        "tags": ["Tailwind CSS", "Figma", "Frontend", "Pug.js"],
-        "screenshotURLs": ["desktop_main.webp", "desktop_faq.webp", "mobile_main.webp", "mobile_faq.webp"]
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp", "CMS_desktop_4.webp", "CMS_desktop_5.webp",
+          "CMS_mobile_menu.webp", "CMS_mobile_page.webp"]
       },
       {
         "title": "Utilities App",
@@ -40,6 +41,29 @@
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
         "screenshotURLs": ["Utilities_Trello.webp"]
+      },
+      {
+        "title": "Corecircle",
+        "slug": "corecircle",
+        "externalURL": "https://corecircle.com/",
+        "description": "Frontend for mobile and desktop",
+        "logoImageURL": "/img/projects/corecircle/desktop_main.webp",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "",
+        "tags": ["Tailwind CSS", "Figma", "Frontend", "Pug.js"],
+        "screenshotURLs": ["desktop_main.webp", "desktop_faq.webp", "mobile_main.webp", "mobile_faq.webp"]
+      },
+      {
+        "title": "SquirrelNow",
+        "slug": "squirrelnow",
+        "description": "Landing Page design",
+        "logoImageURL": "/img/projects/squirrelnow/main.webp",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "",
+        "tags": ["Landing Page", "Design", "Figma"],
+        "screenshotURLs": ["desktop_main.webp"]
       },
       {
         "title": "Draper Automotive",
@@ -65,19 +89,6 @@
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["Tailwind CSS", "UI/UX", "Prototype"],
         "screenshotURLs": ["desktop.webp", "desktop_2.webp", "mobile.webp"]
-      },
-      {
-        "title": "Dashboard MVP",
-        "slug": "buyergenics",
-        "externalURL": "",
-        "description": "Frontend for Dashboard MVP (no design mockups were provided)",
-        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.webp",
-        "logoImageStyle": "",
-        "logoText": "",
-        "logoTextStyle": "color: white; font-size: 2rem;",
-        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
-        "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp", "CMS_desktop_4.webp", "CMS_desktop_5.webp",
-          "CMS_mobile_menu.webp", "CMS_mobile_page.webp"]
       },
       {
         "title": "Arkadia",
