@@ -18,6 +18,18 @@
           "GoPingu_mobile.webp", "GoPingu_mobile-main.webp"]
       },
       {
+        "title": "Utilities App",
+        "slug": "utilities-app",
+        "externalURL": "https://eirene.github.io/utilities-app/dist/#/trello",
+        "description": "My project where I create and collect Vue components",
+        "logoImageURL": "/img/projects/utilities-app/Utilities_Trello.webp",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["Utilities_Trello.webp"]
+      },
+      {
         "title": "Dashboard MVP",
         "slug": "buyergenics",
         "externalURL": "",
@@ -29,18 +41,6 @@
         "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
         "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp", "CMS_desktop_4.webp", "CMS_desktop_5.webp",
           "CMS_mobile_menu.webp", "CMS_mobile_page.webp"]
-      },
-      {
-        "title": "Utilities App",
-        "slug": "utilities-app",
-        "externalURL": "https://eirene.github.io/utilities-app/dist/#/trello",
-        "description": "My project where I create and collect Vue components",
-        "logoImageURL": "/img/projects/utilities-app/Utilities_Trello.webp",
-        "logoImageStyle": "",
-        "logoText": "",
-        "logoTextStyle": "color: white; font-size: 2rem;",
-        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
-        "screenshotURLs": ["Utilities_Trello.webp"]
       },
       {
         "title": "Corecircle",
