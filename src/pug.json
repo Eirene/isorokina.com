@@ -31,16 +31,16 @@
       },
       {
         "title": "Dashboard MVP",
-        "slug": "buyergenics",
+        "slug": "gblux",
         "externalURL": "",
         "description": "Frontend for Dashboard MVP (no design mockups were provided)",
-        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.webp",
+        "logoImageURL": "/img/projects/gblux/CMS_desktop_1.webp",
         "logoImageStyle": "",
         "logoText": "",
         "logoTextStyle": "color: white; font-size: 2rem;",
-        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
-        "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp", "CMS_desktop_4.webp", "CMS_desktop_5.webp",
-          "CMS_mobile_menu.webp", "CMS_mobile_page.webp"]
+        "tags": ["Svelte.js", "Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp",
+          "CMS_mobile_menu.webp", "CMS_mobile_page_1.webp", "CMS_mobile_page_2.webp", "CMS_mobile_page_3.webp"]
       },
       {
         "title": "Corecircle",
@@ -113,6 +113,19 @@
         "logoTextStyle": "color: white; font-size: 2rem;",
         "tags": ["UI/UX", "Prototype"],
         "screenshotURLs": ["Dashboard_from.webp", "Dashboard_to.webp", "from-to.webp"]
+      },
+      {
+        "title": "Dashboard MVP",
+        "slug": "buyergenics",
+        "externalURL": "",
+        "description": "Frontend for Dashboard MVP (no design mockups were provided)",
+        "logoImageURL": "/img/projects/buyergenics/CMS_desktop_1.webp",
+        "logoImageStyle": "",
+        "logoText": "",
+        "logoTextStyle": "color: white; font-size: 2rem;",
+        "tags": ["Vue 3", "Composition API", "Tailwind CSS", "UI/UX", "Prototype"],
+        "screenshotURLs": ["CMS_desktop_1.webp", "CMS_desktop_2.webp", "CMS_desktop_3.webp", "CMS_desktop_4.webp", "CMS_desktop_5.webp",
+          "CMS_mobile_menu.webp", "CMS_mobile_page.webp"]
       },
       {
         "title": "Toread.today",
